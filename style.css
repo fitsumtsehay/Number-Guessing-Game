@@ -1,0 +1,73 @@
+html {
+    font-family: sans-serif;
+  }
+  body {
+    padding: 25px 0;
+    width: 80%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: #d6b588;
+  }
+  h1, h2, p{
+    text-align: center;
+    color: #2d1100;
+    font-weight:bold;
+
+  }
+  .attempt {
+    color: #800d05;
+  }
+
+  main {
+    padding: 15px;
+    background-color: antiquewhite;
+    background: #989c79;
+    color: white;
+    text-align: center;
+    border-radius:30px;
+    width: 60%;
+    margin-top: 20px;
+
+  }
+ 
+  .form{
+    text-align: center;
+    color: white;
+    font-weight:bold;
+  }
+
+  .guessSubmit {
+    color: white;
+    background-color: #3c1700;
+    border-radius:30px;  
+    height: 30px;
+
+  }
+
+  .reset {
+    color: white;
+    background-color: #3c1700;
+    border-radius:30px; 
+    width:15%;
+    height: 30px;
+  }
+  .lastResult {
+    font-size: 20px;
+    color: #800d05;
+    font-weight: bold;
+    margin:5px;
+    padding: 3px;
+    text-align: center;
+    
+  }
+  .chance {
+    font-size: 24px;
+    color: 800d05;
+    padding: 3px;
+    text-align: center;
+  }
+    
+  a {
+    color: white;
+  }

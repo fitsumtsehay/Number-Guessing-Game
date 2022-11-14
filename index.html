@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>guess a number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div align="center">
+    <main>
+        <div>
+          <h2>Guess a Number!</h2>
+          <img src="/images/numbers.jpg" alt="numbers" width="30%">
+        </div>
+    <p>
+        See if you can correctly guess a number between 1 and 100! <br> 
+    </p>
+    <p class="attempt">(You have only 10 atempts)</p>
+
+    <div class="form">
+      <label for="guessField"> Enter your number: </label>
+      <input type="text" id="guessField" class="guessField" />
+      <input type="submit" value="Check Number" class="guessSubmit" />
+    </div>
+
+    <div>
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="chance"></p>
+    </div>
+    <div><a href="index.html"><button class="reset">Reset</button></a></div>
+
+</main>
+</div>
+  </body>
+  <script src="guess.js"></script>
+</html>
